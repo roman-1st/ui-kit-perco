@@ -1,0 +1,11 @@
+
+
+.image-item {
+  max-width: 130px !important;
+  max-height: 130px !important;
+
+  @media screen and (max-width: 1000px){
+    width: 90px !important;
+    height: 90px !important;
+  }
+}

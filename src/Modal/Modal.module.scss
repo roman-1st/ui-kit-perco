@@ -1,0 +1,44 @@
+@import "../scss/variables/colors";
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-container {
+  width: 50vw;
+  min-width: 280px;
+  max-width: 1200px;
+
+  height: 50vh;
+  min-height: 350px;
+  max-height: 700px;
+
+  box-sizing: border-box;
+}
+.close-modal {
+  position: fixed;
+  width: 32px;
+  height: 32px;
+
+  top: 24px;
+  right: 24px;
+
+  background: url('../assets/images/closeModal.svg');
+  background-size: cover;
+  background-position: center;
+
+  &:hover{
+    transition: 0.2s;
+    background: $bg-danger-hover;
+    color: $text-danger-hover;
+    border-radius: 16px;
+  }
+}

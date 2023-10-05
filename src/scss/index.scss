@@ -1,0 +1,28 @@
+//variables
+@import "variables/colors"; // colors
+
+//display / position
+@import "display/flex"; //flex
+@import "display/grid";
+@import "display/position"; //position + top/right/bottom/left
+@import "display/display"; // display : block / none
+
+//base style
+@import "base/border"; //border
+@import "base/cursor"; //cursor
+@import "base/size"; //width & height
+@import "base/padding"; //padding
+@import "base/margin"; //margin
+
+//components
+@import "components/button"; // buttons components
+@import "components/container"; //container components
+@import "components/modal"; //modal window setting components
+@import "components/input"; //input component
+@import "components/card"; //custom block - card components
+@import "components/imageItem"; // img component
+@import "components/image"; // images style components
+@import "components/list"; // list component
+
+@import "global"; // global style
+

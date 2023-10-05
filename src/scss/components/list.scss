@@ -1,0 +1,19 @@
+
+
+.list {
+  width: calc( 100% - 30px ) !important;
+  height: auto;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.list-item {
+  min-height: 50px;
+  width: calc( 100% - 20px);
+
+  padding: 10px;
+  border-radius: 6px;
+}

@@ -1,0 +1,26 @@
+@import "../variables/colors";
+
+.card {
+  border-radius: 10px !important;
+  background: $bg-secondary !important;
+
+  width: calc(100% - 40px);
+  height: auto;
+
+  padding: 20px;
+
+  overflow: scroll;
+
+
+  @media screen and (max-width: 600px) {
+    height: auto !important;
+  }
+
+
+  //@media screen and (max-width: 1400px) {
+  //  min-width: 1000px;
+  //}
+  //@media screen and (min-width: 1400px) {
+  //  min-width: 1200px;
+  //}
+}

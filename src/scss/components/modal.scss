@@ -1,0 +1,56 @@
+@import "../variables/colors";
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.1s ease-in-out;
+}
+
+.show {
+  visibility: visible;
+  z-index: 100;
+  opacity: 1;
+}
+.modal-container {
+  width: 50vw;
+  min-width: 280px;
+  max-width: 1400px;
+
+  height: auto;
+  min-height: 350px;
+  max-height: 900px;
+
+  box-sizing: border-box;
+
+  @media screen and (max-width: 600px) {
+    max-height: 60vh;
+  }
+  @media screen and (max-width: 900px) {
+    max-height: 700px;
+  }
+}
+.close-modal {
+  position: fixed;
+  z-index: 20;
+  top: 24px;
+  right: 24px;
+
+  width: 32px;
+  height: 32px;
+
+  border-radius: 50%;
+  &:hover{
+    transition: 0.2s;
+    background: $text-danger-hover;
+  }
+}

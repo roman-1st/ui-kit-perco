@@ -1,0 +1,35 @@
+
+.form-control {
+  width: auto;
+  padding: 10px;
+  background: #f5f5f5;
+  border-radius: 6px;
+  border: 1px solid white;
+}
+.form-control:focus {
+  outline: none;
+  background: #ffffff;
+  border: 1px solid blue;
+}
+
+.remove-btn {
+  position: absolute;
+  font-size: 15px;
+  top: 1px;
+  right: 10px;
+  color: #565656;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  opacity: 0;
+
+  cursor: pointer;
+  content: '';
+  border-radius: 50%;
+}
+
+.form-control:focus ~ .removeBtn {
+  opacity: 1;
+}

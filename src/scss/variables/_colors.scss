@@ -1,0 +1,48 @@
+.bg-white {
+  background: #FFFFFF;
+}
+.bg-dark {
+  background: #2f2f2f;
+}
+.text-white {
+  color: #FFFFFF;
+}
+.text-dark {
+  color: #2f2f2f;
+}
+//text-color
+$text-dark: #212121;
+$text-white: #fcfcfc;
+
+$text-success: #fcfcfc;
+$text-success-hover: #f1f1f1;
+$text-success-active: #ffffff;
+
+$text-danger: #FFFFFF;
+$text-danger-hover: #eeeeee;
+$text-danger-active: #ffffff;
+
+$text-primary: #fcfcfc;
+$text-primary-hover: #eeeeee;
+$text-primary-active: #ffffff;
+
+$text-secondary: #2f2f2f;
+$text-secondary-hover: #383838;
+$text-secondary-active: #212121;
+
+//background-color
+$bg-success: #5dd944;
+$bg-success-hover: #50b73c;
+$bg-success-active: #47c730;
+
+$bg-danger: #EB0C0C;
+$bg-danger-hover: #ff4e4e;
+$bg-danger-active: #ff3737;
+
+$bg-primary: #4a80f6;
+$bg-primary-hover: #3d77f5;
+$bg-primary-active: #3d78f6;
+
+$bg-secondary: #e7e7e7;
+$bg-secondary-hover: #cccccc;
+$bg-secondary-active: #e7e7e7;

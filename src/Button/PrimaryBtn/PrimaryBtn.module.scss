@@ -1,0 +1,31 @@
+@import "../../scss/variables/colors";
+@import "src/scss/mixins/btn-sizes";
+
+.btn-sm {
+  @include btn-sm
+}
+.btn-lg {
+  @include btn-lg
+}
+
+.btn {
+  font-size: 16px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+
+  background: $bg-primary ;
+  color: $text-primary;
+  cursor: pointer;
+
+  &:hover {
+    transition: 0.2s;
+    color: $text-primary-hover;
+    background: $bg-primary-hover;
+  }
+  &:active {
+    transition: 0.2s;
+    color: $text-primary-active;
+    background: $bg-primary-active;
+  }
+}

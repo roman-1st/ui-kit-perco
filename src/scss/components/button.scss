@@ -1,0 +1,90 @@
+@import "../variables/colors";
+//
+//.btn-lg {
+//  font-size: 20px !important;
+//  padding: 10px 20px !important;
+//}
+//
+//.btn-sm {
+//  font-size: 10px !important;
+//  padding: 5px !important;
+//}
+
+
+.btn {
+  font-size: 16px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+
+  background: $bg-secondary;
+  color: $text-dark;
+  cursor: pointer;
+
+  &:hover {
+    transition: 0.2s;
+    background: $bg-secondary-hover;
+  }
+  &:active {
+    transition: 0.2s;
+    background: $bg-secondary-active;
+  }
+}
+
+
+.btn-primary {
+  color: $text-primary;
+  background: $bg-primary;
+  &:hover {
+    transition: 0.2s;
+    background: $bg-primary-hover;
+    color: $text-primary-hover;
+  }
+  &:active {
+    transition: 0.2s;
+    background: $bg-primary-active;
+    color: $text-primary-active;
+  }
+}
+.btn-success {
+  color: $text-success;
+  background: $bg-success;
+  &:hover {
+    transition: 0.2s;
+    background: $bg-success-hover;
+    color: $text-success-hover;
+  }
+  &:active {
+    transition: 0.2s;
+    background: $bg-success-active;
+    color: $text-success-active;
+  }
+}
+.btn-danger {
+  color: $text-danger;
+  background: $bg-danger;
+  &:hover {
+    transition: 0.2s;
+    background: $bg-danger-hover;
+    color: $text-danger-hover;
+  }
+  &:active {
+    transition: 0.2s;
+    background: $bg-danger-active;
+    color: $text-danger-active;
+  }
+}
+.btn-secondary {
+  color: $text-secondary;
+  background: $bg-secondary;
+  &:hover {
+    transition: 0.2s;
+    background: $bg-secondary-hover;
+    color: $text-secondary-hover;
+  }
+  &:active {
+    transition: 0.2s;
+    background: $bg-secondary-active;
+    color: $text-secondary-active;
+  }
+}
